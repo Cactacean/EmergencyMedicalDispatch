@@ -8,7 +8,7 @@ public class EmergencyCall {
     private final String callerType;
     private final String location;
     private final int severity;
-    private final long timestamp; // edited missing part
+    private final long timestamp; 
 
     /**
      * Severity:
@@ -20,7 +20,7 @@ public class EmergencyCall {
         this.callerType = callerType;
         this.location = location;
         this.severity = severity;
-        this.timestamp = System.currentTimeMillis(); // edited
+        this.timestamp = System.currentTimeMillis(); 
     }
 
     public String getCallerType() {
@@ -35,7 +35,7 @@ public class EmergencyCall {
         return severity;
     }
 
-    public long getTimestamp(){ return timestamp; } // edited
+    public long getTimestamp(){ return timestamp; }
 
     // for output:
     // [Heart Attack | Location=A | Severity=1 (CRITICAL)]
